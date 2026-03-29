@@ -28,5 +28,18 @@ results/ - output videos
 git clone https://github.com/girish01092001/tennis-broadcast-analysis
 
 
-### 3. Run pipeline
+### 2. Run pipeline
 python main.py --video input.mp4
+
+### 3.Pipeline explanation
+Input Video
+   ↓
+Court Keypoint Detection
+   ↓
+Homography Estimation
+   ↓
+Player Detection + Tracking
+   ↓
+Ball Detection + Filtering
+   ↓
+Output (CSV + Visualization)
