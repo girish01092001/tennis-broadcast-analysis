@@ -10,6 +10,7 @@ An end-to-end computer vision pipeline for analyzing tennis broadcast videos usi
 - Homography-based court mapping
 - Annotated video output
 - CSV tracking data export
+![id1_id2_court_ball_overlay_raw-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/87edd2e9-38df-45e7-93db-cbf103eeca9f)
 
 ## Project Structure
 data/ - input video and output CSV
