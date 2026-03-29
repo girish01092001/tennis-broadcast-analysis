@@ -23,3 +23,10 @@ results/ - output videos
 
 - Annotated video → `results/`
 - Tracking CSV → `data/`
+- 
+### 1. Clone repo
+git clone https://github.com/girish01092001/tennis-broadcast-analysis
+
+
+### 3. Run pipeline
+python main.py --video input.mp4
